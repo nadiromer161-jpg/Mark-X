@@ -6,7 +6,7 @@ import json
 import threading
 
 MODEL_PATH = "C:/Users/90553/Downloads/vosk/vosk-model-small-en-us-0.15"  # put your path
-model = vosk.Model(MODEL_PATH)
+model = vosk.Model(Tr)
 
 q = queue.Queue()
 stop_listening_flag = threading.Event()
